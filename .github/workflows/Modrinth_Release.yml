@@ -2,8 +2,7 @@ name: Create Archive
 on: 
   push:
     branches:
-      - main
-      - master
+      - release
 # This is a comment, and this is used to force a run
 jobs:
   build:
@@ -47,8 +46,7 @@ jobs:
 
 
           loaders: |
-            fabric
-            forge
+            resourcepack
 
           game-versions: |
             [1.20,1.20.4)
