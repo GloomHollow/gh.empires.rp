@@ -45,8 +45,7 @@ jobs:
           version-type: release
 
 
-          loaders: |
-            resourcepack
+          project_type: resourcepack
 
           game-versions: |
             [1.20,1.20.4)
