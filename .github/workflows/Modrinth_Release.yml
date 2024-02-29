@@ -37,7 +37,6 @@ jobs:
           modrinth-featured: true
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-\
 
           github-tag: mc1.20.4-0.${{ github.run_number }}
           github-generate-changelog: true
@@ -60,7 +59,7 @@ jobs:
             forge
 
           game-versions: |
-            =<1.20
+            [1.20,1.20.4)
 
           retry-attempts: 2
           retry-delay: 10000
