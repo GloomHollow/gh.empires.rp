@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/element.stick",
+		"2": "minecraft:block/oak_log"
+	},
+	"elements": [
+		{
+			"name": "model.stick",
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [2, 0, 4, 16], "texture": "#2"},
+				"east": {"uv": [7, 0, 9, 16], "texture": "#2"},
+				"south": {"uv": [11, 0, 13, 16], "texture": "#2"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#2"},
+				"up": {"uv": [4, 3, 2, 1], "texture": "#2"},
+				"down": {"uv": [13, 7, 11, 9], "texture": "#2"}
+			}
+		},
+		{
+			"from": [2, 12, 5],
+			"to": [10, 18, 5],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [2, 0, -1]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 6], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 6], "texture": "#1"},
+				"south": {"uv": [8, 0, 0, 6], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 6], "texture": "#1"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [8, 0, 0, 0], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -0.25, 0],
+			"scale": [0.82, 0.78, 0.78]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [6, 0, 0],
+			"translation": [0, 0.75, 1.25],
+			"scale": [0.82, 0.78, 0.78]
+		},
+		"firstperson_righthand": {
+			"rotation": [-39.96, -3.3, -26.09],
+			"translation": [2.25, -0.25, 0],
+			"scale": [0.91, 0.94, 0.94]
+		},
+		"firstperson_lefthand": {
+			"rotation": [33.33, 57.48, -82.55],
+			"translation": [2.5, 0, 0],
+			"scale": [0.91, 0.94, 0.94]
+		},
+		"ground": {
+			"rotation": [-18.31, -9.97, 56.86],
+			"translation": [0, 0.25, 0],
+			"scale": [1, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [0, -25, -51.75],
+			"translation": [-0.5, -1.75, 0]
+		},
+		"head": {
+			"rotation": [-59, 0, 0],
+			"translation": [0, 5.75, -7.75]
+		},
+		"fixed": {
+			"rotation": [0, -33.5, 0],
+			"translation": [0, 0, -0.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "stick",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "elements",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [1]
+				}
+			]
+		}
+	]
+}
