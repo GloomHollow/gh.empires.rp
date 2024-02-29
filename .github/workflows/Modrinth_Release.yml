@@ -22,14 +22,6 @@ jobs:
           type: "zip"
           filename: "cnet.smp.zip"
           exclusions: "*.git* /*node_modules/* .editorconfig .github"
-      #- name: Upload Release
-      #  uses: ncipollo/release-action@main
-      #  with:
-      #    commit: main
-      #    #tag: ${{ steps.time.outputs.time }} This will output as date
-      #    tag: v.0.${{ github.run_number }}.dev
-      #    artifacts: "cnet.smp.zip"
-      #    token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -49,7 +41,7 @@ jobs:
           files: |
             ./cnet.smp.zip
 
-          name: "[CN] Empires.RP 0.${{ github.run_number }}"
+          name: Empires.RP-0.${{ github.run_number }}
           version: v.0.${{ github.run_number }}
           version-type: release
 
