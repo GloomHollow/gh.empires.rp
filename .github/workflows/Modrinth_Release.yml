@@ -22,14 +22,14 @@ jobs:
           type: "zip"
           filename: "cnet.smp.zip"
           exclusions: "*.git* /*node_modules/* .editorconfig .github"
-      - name: Upload Release
-        uses: ncipollo/release-action@main
-        with:
-          commit: dev
-          #tag: ${{ steps.time.outputs.time }} This will output as date
-          tag: v.0.${{ github.run_number }}.dev
-          artifacts: "cnet.smp.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
+      #- name: Upload Release
+      #  uses: ncipollo/release-action@main
+      #  with:
+      #    commit: main
+      #    #tag: ${{ steps.time.outputs.time }} This will output as date
+      #    tag: v.0.${{ github.run_number }}.dev
+      #    artifacts: "cnet.smp.zip"
+      #    token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -38,18 +38,18 @@ jobs:
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
-          github-tag: mc1.20.4-0.${{ github.run_number }}
+          github-tag: 0.{{ github.run_number }}
           github-generate-changelog: true
           github-draft: false
           github-prerelease: false
-          github-commitish: dev
+          github-commitish: main
           github-discussion: Announcements
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: |
             ./cnet.smp.zip
 
-          name: CookieNet-SMP Resourcepack
+          name: "[CN] Empires.RP 0.${{ github.run_number }}"
           version: v.0.${{ github.run_number }}
           version-type: release
 
