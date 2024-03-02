@@ -48,7 +48,7 @@ jobs:
           loaders: minecraft
 
           game-versions: |
-            <1.20
+            >1.20
           game-version-filter: releases
 
           retry-attempts: 2
