@@ -1,0 +1,9 @@
+{
+    "truehero": {
+      "sounds": ["custom/true_hero"]
+    },
+    "megalovania": {
+      "sounds": ["custom/megalovania"]
+    }
+
+  }
