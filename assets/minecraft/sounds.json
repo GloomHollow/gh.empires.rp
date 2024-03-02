@@ -1,0 +1,42 @@
+{
+    "music_disc.dragonflight": {
+        "sounds": [
+            {
+                "name": "records/dragonflight",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.gerudo": {
+        "sounds": [
+            {
+                "name": "records/gerudo",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.megalovania": {
+        "sounds": [
+            {
+                "name": "records/megalovania",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.sos": {
+        "sounds": [
+            {
+                "name": "records/sos",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.truehero": {
+        "sounds": [
+            {
+                "name": "records/truehero",
+                "stream": true
+            }
+        ]
+    }
+}
