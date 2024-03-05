@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_pickaxe"
+    },
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 31},
+            "model": "item/purpleworldset/purpleworld_pickaxe"
+        }
+    ]
+}

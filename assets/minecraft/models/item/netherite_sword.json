@@ -27,6 +27,65 @@
         {
             "predicate": {"custom_model_data": 1981827},
             "model": "item/weapons/netherite_greataxe"
+        },
+
+
+
+		{ 
+			"predicate": { "custom_model_data": 11}, 
+            "model": "item/dark_queen/axe_dark_queen"
+		},
+		{ 
+			"predicate": { "custom_model_data": 12}, 
+            "model": "item/dark_queen/sword_dark_queen"
+		},
+		{ 
+			"predicate": { "custom_model_data": 13}, 
+            "model": "item/dark_queen/spear_dark_queen"
+		},
+		{ 
+			"predicate": { "custom_model_data": 14}, 
+            "model": "item/dark_queen/staff_dark_queen"
+		},
+        {
+            "predicate": { "custom_model_data": 15},
+            "model": "item/dark_queen/sword_dark_queen"
+        },
+
+
+
+		{ 
+			"predicate": { "custom_model_data": 21}, 
+            "model": "item/ruby/axe"
+		},
+		{ 
+			"predicate": { "custom_model_data": 22}, 
+            "model": "item/ruby/spear"
+		},
+		{ 
+			"predicate": { "custom_model_data": 23}, 
+            "model": "item/ruby/staff"
+		},
+        {
+            "predicate": { "custom_model_data": 24},
+            "model": "item/ruby/sword"
+        },
+
+
+
+		{ 
+			"predicate": { "custom_model_data": 31}, 
+            "model": "item/purpleworldset/purpleworld_sword"
+		},
+		{ 
+			"predicate": { "custom_model_data": 32}, 
+            "model": "item/purpleworldset/purpleworld_dagger"
+		},
+
+        
+        {
+            "predicate": { "custom_model_data": 5000},
+            "model": "item/elitecreatures/vanquisher_sword/vanquisher_sword"
         }
     ]
 }

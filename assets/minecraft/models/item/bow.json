@@ -74,6 +74,108 @@
                 "pull": 0.9
             },
             "model": "item/gui/skillicon_archery"
-        }
+        },
+
+
+
+        {
+			"predicate": {
+                "custom_model_data": 2
+			},
+			"model": "item/dark_queen/bow_dark_queen"
+		},
+        {
+			"predicate": {
+				"pulling": 1,
+                "custom_model_data": 2
+			},
+			"model": "item/dark_queen/bow_dark_queen_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.65,
+                "custom_model_data": 2
+
+			},
+			"model": "item/dark_queen/bow_dark_queen_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+                "custom_model_data": 2
+
+			},
+			"model": "item/dark_queen/bow_dark_queen_2"
+		},
+
+
+
+        {
+			"predicate": {
+                "custom_model_data": 3
+			},
+			"model": "item/ruby/bow_1"
+		},
+        {
+			"predicate": {
+				"pulling": 1,
+                "custom_model_data": 3
+			},
+			"model": "item/ruby/bow_1_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.65,
+                "custom_model_data": 3
+
+			},
+			"model": "item/ruby/bow_1_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+                "custom_model_data": 3
+
+			},
+			"model": "item/ruby/bow_1_2"
+		},
+
+
+
+        {
+			"predicate": {
+                "custom_model_data": 2
+			},
+			"model": "item/purpleworldset/purpleworld_bow"
+		},
+        {
+			"predicate": {
+				"pulling": 1,
+                "custom_model_data": 2
+			},
+			"model": "item/purpleworldset/purpleworld_bow_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.65,
+                "custom_model_data": 2
+
+			},
+			"model": "item/purpleworldset/purpleworld_bow_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+                "custom_model_data": 2
+
+			},
+			"model": "item/purpleworldset/purpleworld_bow_2"
+		}
     ]
 }

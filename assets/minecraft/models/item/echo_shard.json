@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/echo_shard"
+    },
+        "overrides": [
+            {
+                "predicate": {"custom_model_data": 350001},
+                "model": "item/chests_pack/medium_chest"
+            },
+            {
+                "predicate": {"custom_model_data": 350002},
+                "model": "item/chests_pack/medium_key"
+            },
+            {
+                "predicate": {"custom_model_data": 350003},
+                "model": "item/chests_pack/normal_chest"
+            },
+            {
+                "predicate": {"custom_model_data": 350004},
+                "model": "item/chests_pack/normal_key"
+            },
+            {
+                "predicate": {"custom_model_data": 350005},
+                "model": "item/chests_pack/premium_chest"
+            },
+            {
+                "predicate": {"custom_model_data": 350006},
+                "model": "item/chests_pack/premium_key"
+            }
+        ]
+    }
