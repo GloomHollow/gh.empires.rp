@@ -148,14 +148,14 @@
 
         {
 			"predicate": {
-                "custom_model_data": 2
+                "custom_model_data": 4
 			},
 			"model": "item/purpleworldset/purpleworld_bow"
 		},
         {
 			"predicate": {
 				"pulling": 1,
-                "custom_model_data": 2
+                "custom_model_data": 4
 			},
 			"model": "item/purpleworldset/purpleworld_bow_0"
 		},
@@ -163,7 +163,7 @@
 			"predicate": {
 				"pulling": 1,
 				"pull": 0.65,
-                "custom_model_data": 2
+                "custom_model_data": 4
 
 			},
 			"model": "item/purpleworldset/purpleworld_bow_1"
@@ -172,7 +172,7 @@
 			"predicate": {
 				"pulling": 1,
 				"pull": 0.9,
-                "custom_model_data": 2
+                "custom_model_data": 4
 
 			},
 			"model": "item/purpleworldset/purpleworld_bow_2"

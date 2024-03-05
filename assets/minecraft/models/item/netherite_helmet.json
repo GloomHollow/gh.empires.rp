@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_helmet"
+    },
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 111},
+            "model": "item/vanguard/vanguardhelmet"
+        },
+        {
+            "predicate": { "custom_model_data": 121},
+            "model": "item/royalguard/royalhelmet"
+        }
+    ]
+}

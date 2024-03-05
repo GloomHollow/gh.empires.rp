@@ -1,0 +1,336 @@
+{
+    "parent": "item/shield_mash_glow",
+    "gui_light": "front",
+    "display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 60, 0],
+			"translation": [0, -2, 1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -120, 0],
+			"translation": [0, -2, 1],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [5, 95, 0],
+			"translation": [6.5, -2, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [5, -85, 0],
+			"translation": [6.5, -2, 0]
+		},
+		"ground": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 7, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-90, -45, -90],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 32, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 45, 90]
+		}
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1,
+				"custom_model_data": 1
+            },
+            "model": "item/shield_blocking"
+        },
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 2
+		  },
+		  "model": "variantshields:item/spruce_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 3
+		  },
+		  "model": "variantshields:item/spruce_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 4
+		  },
+		  "model": "variantshields:item/spruce_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 5
+		  },
+		  "model": "variantshields:item/spruce_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 6
+		  },
+		  "model": "variantshields:item/spruce_wood_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 7
+		  },
+		  "model": "variantshields:item/warped_diamond_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 8
+		  },
+		  "model": "variantshields:item/warped_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 9
+		  },
+		  "model": "variantshields:item/warped_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 10
+		  },
+		  "model": "variantshields:item/warped_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 11
+		  },
+		  "model": "variantshields:item/warped_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 12
+		  },
+		  "model": "variantshields:item/warped_wood_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 13
+		  },
+		  "model": "variantshields:item/cherry_diamond_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 14
+		  },
+		  "model": "variantshields:item/cherry_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 15
+		  },
+		  "model": "variantshields:item/cherry_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 16
+		  },
+		  "model": "variantshields:item/cherry_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 17
+		  },
+		  "model": "variantshields:item/cherry_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 18
+		  },
+		  "model": "variantshields:item/cherry_wood_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 19
+		  },
+		  "model": "variantshields:item/dark_oak_diamond_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 20
+		  },
+		  "model": "variantshields:item/dark_oak_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 21
+		  },
+		  "model": "variantshields:item/dark_oak_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 22
+		  },
+		  "model": "variantshields:item/dark_oak_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 23
+		  },
+		  "model": "variantshields:item/dark_oak_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 24
+		  },
+		  "model": "variantshields:item/dark_oak_wood_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 25
+		  },
+		  "model": "variantshields:item/jungle_diamond_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 26
+		  },
+		  "model": "variantshields:item/jungle_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 27
+		  },
+		  "model": "variantshields:item/jungle_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 28
+		  },
+		  "model": "variantshields:item/jungle_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 29
+		  },
+		  "model": "variantshields:item/jungle_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 30
+		  },
+		  "model": "variantshields:item/jungle_wood_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 31
+		  },
+		  "model": "variantshields:item/mangrove_diamond_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 32
+		  },
+		  "model": "variantshields:item/mangrove_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 33
+		  },
+		  "model": "variantshields:item/mangrove_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 34
+		  },
+		  "model": "variantshields:item/mangrove_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 35
+		  },
+		  "model": "variantshields:item/mangrove_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 36
+		  },
+		  "model": "variantshields:item/mangrove_wood_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 37
+		  },
+		  "model": "variantshields:item/oak_diamond_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 38
+		  },
+		  "model": "variantshields:item/oak_golden_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 39
+		  },
+		  "model": "variantshields:item/oak_iron_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 40
+		  },
+		  "model": "variantshields:item/oak_netherite_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 41
+		  },
+		  "model": "variantshields:item/oak_stone_shield_blocking"
+		},
+		{
+		  "predicate": {
+			"blocking": 1,
+			"custom_model_data": 42
+		  },
+		  "model": "variantshields:item/oak_wood_shield_blocking"
+		}
+    ]
+}
