@@ -41,7 +41,7 @@
         {
             "predicate": {
                 "blocking": 1,
-				"custom_model_data": 1
+				"custom_model_data": 101
             },
             "model": "item/shield_blocking"
         },
