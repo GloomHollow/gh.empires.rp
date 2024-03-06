@@ -1,1 +1,6 @@
-{"pack":{"pack_format":22,"description":[{"text":"cookienet-smp","color":"blue"},{"text":"\nCookies and milk","color":"green"}]}}
+{
+  "pack": {
+    "pack_format": 13,
+    "description": "Pre-zipped Model Engine Resource Pack"
+  }
+}
